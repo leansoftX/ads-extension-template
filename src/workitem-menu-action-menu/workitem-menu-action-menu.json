@@ -8,7 +8,7 @@
                 "ms.vss-work-web.work-item-context-menu"
             ],
             "properties": {
-                "title": "Batch Copy Workitems Dev",
+                "title": "Batch Copy Workitems",
                 "name": "Batch Copy Workitems",
                 "uri": "dist/workitem-menu-action-menu/workitem-menu-action-menu.html",
                 "icon": "static/img/icon-copy.png",
