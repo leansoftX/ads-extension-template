@@ -1,5 +1,6 @@
 {
   "id": "ads-extension-batch-copy-wits-dev",
+  "name": "Batch Copy Workitems Dev",
   "public": false,
   "baseUri": "http://localhost:3000"
 }

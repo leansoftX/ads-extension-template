@@ -35,7 +35,7 @@
         {
             "path": "dist",
             "addressable": true,
-            "packagePath": "scripts"
+            "packagePath": "dist"
         },
         {
             "path": "node_modules/vss-web-extension-sdk/lib",

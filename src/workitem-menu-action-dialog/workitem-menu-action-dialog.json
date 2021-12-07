@@ -5,7 +5,7 @@
             "type": "ms.vss-web.external-content",
             "targets": [],
             "properties": {
-                "uri": "scripts/workitem-menu-action-dialog/workitem-menu-action-dialog.html"
+                "uri": "dist/workitem-menu-action-dialog/workitem-menu-action-dialog.html"
             }
         }
     ]   
