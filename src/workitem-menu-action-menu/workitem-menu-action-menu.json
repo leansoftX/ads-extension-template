@@ -10,7 +10,7 @@
             "properties": {
                 "title": "Batch Copy Workitems",
                 "name": "Batch Copy Workitems",
-                "uri": "dist/workitem-menu-action-menu/workitem-menu-action-menu.html",
+                "uri": "scripts/workitem-menu-action-menu/workitem-menu-action-menu.html",
                 "icon": "static/img/icon-copy.png",
                 "registeredObjectId": "batch-copy-workitem-work-item-menu.action"
             }
