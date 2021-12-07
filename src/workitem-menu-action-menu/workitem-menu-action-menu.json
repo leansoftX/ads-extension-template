@@ -1,0 +1,19 @@
+{
+    "contributions": [
+        {
+            "id": "batch-copy-workitem-work-item-menu",
+            "type": "ms.vss-web.action",
+            "targets": [
+                "ms.vss-work-web.backlog-item-menu",
+                "ms.vss-work-web.work-item-context-menu"
+            ],
+            "properties": {
+                "title": "Batch Copy Workitems",
+                "name": "Batch Copy Workitems",
+                "uri": "dist/workitem-menu-action-menu/workitem-menu-action-menu.html",
+                "icon": "static/img/icon-copy.png",
+                "registeredObjectId": "batch-copy-workitem-work-item-menu.action"
+            }
+        }
+    ]    
+}

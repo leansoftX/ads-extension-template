@@ -1,0 +1,12 @@
+{
+    "contributions": [
+        {
+            "id": "batch-copyworkitems-dialog",
+            "type": "ms.vss-web.external-content",
+            "targets": [],
+            "properties": {
+                "uri": "dist/workitem-menu-action-dialog/workitem-menu-action-dialog.html"
+            }
+        }
+    ]   
+}

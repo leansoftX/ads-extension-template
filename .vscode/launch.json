@@ -1,0 +1,36 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Firefox",
+      "type": "firefox",
+      "request": "launch",
+      "url": "http://localhost:3000/",
+      "reAttach": true,
+      "pathMappings": [
+        {
+          "url": "webpack:///",
+          "path": "${workspaceFolder}/"
+        }
+      ]
+    },
+    {
+      "name": "Launch Chrome",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000/",
+      "webRoot": "${workspaceFolder}",
+      "sourceMaps": true,
+      "trace": true
+    },
+    {
+      "name": "Attach to Chrome",
+      "type": "chrome",
+      "request": "attach",
+      "url": "http://localhost:3000/",
+      "webRoot": "${workspaceFolder}",
+      "sourceMaps": true,
+      "trace": true
+    }
+  ]
+}

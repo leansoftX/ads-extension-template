@@ -1,0 +1,49 @@
+﻿{
+    "manifestVersion": 1,
+    "version": "1.0.0", 
+    "name": "Batch Copy Workitems",
+    "description": " Batch Copy Workitems(child、link) to Other Team Project",
+    "publisher": "leansoftx",
+    "demands": ["api-version/3.0"],    
+    "scopes": [ "vso.work", "vso.work_write" ],
+    "public": false,
+    "icons": {
+        "default": "static/img/icon-copy.png"
+    },
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "tags": [
+        "WorkItems Batch Copy"
+    ],
+    "content": {
+        "details": {
+            "path": "details.md"
+        }
+    },
+    "branding": {
+        "color": "rgb(220, 235, 252)",
+        "theme": "light"
+    },
+    "files": [       
+        {
+            "path": "static",
+            "addressable": true
+        },
+        {
+            "path": "dist",
+            "addressable": true,
+            "packagePath": "scripts"
+        },
+        {
+            "path": "node_modules/vss-web-extension-sdk/lib",
+            "addressable": true,
+            "packagePath": "lib"
+        }
+    ],
+    "categories": [
+        "Integrate"
+    ]    
+}
