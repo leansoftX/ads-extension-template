@@ -1,6 +1,26 @@
-# Batch Copy Workitems
+# Azure DevOps Service/Server Extension template
 
- Batch Copy Workitems(child、link) to Other Team Project
+ include two Extension 
+
+ - top level hub (tab page)
+ - workitem item menu && action dialog
+ 
+ used npm pkg:
+
+   "antd": "^4.17.2", (UI Lib)
+   "axios": "^0.24.0",
+   "azure-devops-extension-api": "^1.152.0",
+   "azure-devops-extension-sdk": "^2.0.7",
+   "azure-devops-ui": "^1.152.2", (UI Lib)
+   "linqts": "^1.14.4", (linq for ts)
+   "react": "^16.8.6",
+   "react-dom": "^16.8.6",
+   "vss-web-extension-sdk": "^5.141.0", （old sdk，not suggest）
+
+this repo, configed as a modularization extension, in src dir,all sub dir is a sub extension .
+
+build anr pkg,see package.json file.
+
 
 ## Running this project
 
